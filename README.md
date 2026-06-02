@@ -14,8 +14,7 @@ https://flow-zen-schmidt.github.io/web-cv-profile-dashboard/
 
 ## Contents
 
-- `index.html` — entry point (redirects to the CV)
-- `florian-schmidt-cv.html` — the actual CV / portfolio page
+- `index.html` — the CV / portfolio page (served as Pages root)
 
 Sections inside the CV:
 
@@ -31,7 +30,7 @@ Sections inside the CV:
 No build step. Just open the file in a browser:
 
 ```bash
-open florian-schmidt-cv.html
+open index.html
 ```
 
 Or serve the folder with any static server, e.g.:
